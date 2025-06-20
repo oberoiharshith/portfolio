@@ -1,29 +1,6 @@
 
-import { Button } from '@/components/ui/button';
-import { ExternalLink, Youtube, BookOpen } from 'lucide-react';
-
-const teachingItems = [
-  {
-    title: "Rutgers Lecturer",
-    description: "Teaching graduate-level Data Science courses to 50+ students with focus on practical ML applications.",
-    icon: "🎓",
-    type: "Teaching"
-  },
-  {
-    title: "YouTube Tutorials",
-    description: "Bite-sized machine learning tutorials with data science project walkthroughs and coding best practices.",
-    icon: "📺",
-    type: "Content",
-    link: "https://www.youtube.com/playlist?list=PLjZSJ3VhEZRJxMoHkcSCcescvi3uxhVce"
-  },
-  {
-    title: "Tech Blog",
-    description: "Deep-dive articles on MLOps, data engineering, and AI implementation best practices.",
-    icon: "📝",
-    type: "Writing",
-    link: "https://medium.com/@harshith_oberoi"
-  }
-];
+import { Badge } from '@/components/ui/badge';
+import { Users, Youtube } from 'lucide-react';
 
 const Teaching = () => {
   return (
@@ -34,49 +11,50 @@ const Teaching = () => {
             Teaching & Community
           </h2>
           
-          <div className="grid md:grid-cols-3 gap-8">
-            {teachingItems.map((item, index) => (
-              <div
-                key={item.title}
-                className="bg-white p-6 rounded-2xl shadow-lg hover:shadow-xl transition-all duration-300 animate-on-scroll"
-                style={{ animationDelay: `${index * 0.1}s` }}
-              >
-                <div className="text-4xl mb-4">
-                  {item.icon}
+          <div className="grid md:grid-cols-2 gap-8">
+            <div className="bg-white rounded-2xl p-8 shadow-lg hover:shadow-xl transition-all duration-300 hover:scale-105 animate-on-scroll">
+              <div className="flex items-center mb-4">
+                <Users className="h-8 w-8 text-rutgers-red mr-3" />
+                <div>
+                  <h3 className="text-xl font-epilogue font-bold text-gray-900">
+                    Rutgers University
+                  </h3>
+                  <p className="text-gray-600">Lecturer & TA – Intro to Data Science</p>
                 </div>
-                
-                <div className="mb-2">
-                  <span className="text-xs font-semibold text-rutgers-red uppercase tracking-wide">
-                    {item.type}
-                  </span>
-                </div>
-                
-                <h3 className="text-xl font-epilogue font-bold text-gray-900 mb-3">
-                  {item.title}
-                </h3>
-                
-                <p className="text-gray-600 mb-4 text-sm leading-relaxed">
-                  {item.description}
-                </p>
-                
-                {item.link && (
-                  <Button
-                    size="sm"
-                    variant="outline"
-                    className="text-rutgers-red border-rutgers-red hover:bg-rutgers-red hover:text-white"
-                    onClick={() => window.open(item.link, '_blank', 'noopener,noreferrer')}
-                  >
-                    {item.type === 'Content' ? (
-                      <Youtube className="w-4 h-4 mr-1" />
-                    ) : (
-                      <BookOpen className="w-4 h-4 mr-1" />
-                    )}
-                    View {item.type}
-                    <ExternalLink className="w-3 h-3 ml-1" />
-                  </Button>
-                )}
               </div>
-            ))}
+              <p className="text-gray-600 mb-4">
+                Mentored 50+ students with 40+ Python mini-projects; course scores rose markedly
+              </p>
+              <div className="flex flex-wrap gap-2">
+                <Badge variant="outline" className="text-xs">Jan 2025 – May 2025</Badge>
+                <Badge variant="outline" className="text-xs">Python</Badge>
+                <Badge variant="outline" className="text-xs">Data Science</Badge>
+              </div>
+            </div>
+
+            <div className="bg-white rounded-2xl p-8 shadow-lg hover:shadow-xl transition-all duration-300 hover:scale-105 animate-on-scroll">
+              <div className="flex items-center mb-4">
+                <Youtube className="h-8 w-8 text-rutgers-red mr-3" />
+                <div>
+                  <h3 className="text-xl font-epilogue font-bold text-gray-900">
+                    YouTube Channel
+                  </h3>
+                  <p className="text-gray-600">Data Science Tutorials</p>
+                </div>
+              </div>
+              <p className="text-gray-600 mb-4">
+                Educational content covering machine learning concepts, Python tutorials, and data science best practices
+              </p>
+              <a 
+                href="https://www.youtube.com/playlist?list=PLjZSJ3VhEZRJxMoHkcSCcescvi3uxhVce"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="inline-flex items-center text-rutgers-red hover:text-rutgers-red-dark transition-colors"
+              >
+                <Youtube className="w-4 h-4 mr-2" />
+                Watch Playlist ↗
+              </a>
+            </div>
           </div>
         </div>
       </div>

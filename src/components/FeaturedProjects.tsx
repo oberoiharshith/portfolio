@@ -6,45 +6,45 @@ import { Github } from 'lucide-react';
 const projects = [
   {
     title: "Lang2Query",
-    description: "Fine-tunes Mistral-7B with LoRA, RAG, and FAISS to convert natural-language questions into executable SQL for analytics teams.",
+    description: "Fine-tunes Mistral-7B with LoRA, RAG, and FAISS to convert plain-language questions into executable SQL.",
     image: "https://images.unsplash.com/photo-1555066931-4365d14bab8c?w=500&h=300&fit=crop",
-    tech: ["Python", "RAG", "Docker", "Mistral-7B"],
+    tech: ["Python", "LoRA", "FAISS", "Mistral-7B", "Docker"],
     links: {
       code: "https://github.com/oberoiharshith/Lang2Query"
     }
   },
   {
     title: "SignalSense",
-    description: "Machine-learning trading framework that evaluates time-series models, applies rolling risk controls, and rigorously validates strategies through back- and forward-testing.",
+    description: "ML trading framework that compares time-series models, applies rolling risk controls, and validates strategies via back- & forward-testing.",
     image: "https://images.unsplash.com/photo-1611974789855-9c2a0a7236a3?w=500&h=300&fit=crop",
-    tech: ["PySpark", "Kafka", "Azure", "XGBoost"],
+    tech: ["Python", "XGBoost", "MLflow", "Vertex AI", "Pandas"],
     links: {
       code: "https://github.com/oberoiharshith/SignalSense"
     }
   },
   {
     title: "OptiGrade",
-    description: "End-to-end pipeline for predicting student performance. Combines ensemble regressors, hyper-parameter tuning, and automated CI/CD to an AWS Beanstalk endpoint.",
+    description: "End-to-end student-performance pipeline with ensemble regressors, hyper-tuning, and CI/CD deployment to AWS Beanstalk.",
     image: "https://images.unsplash.com/photo-1456513080510-7bf3a84b82f8?w=500&h=300&fit=crop",
-    tech: ["spaCy", "NLTK", "Flask", "PostgreSQL"],
+    tech: ["Python", "CatBoost", "XGBoost", "AWS Beanstalk", "CodePipeline"],
     links: {
       code: "https://github.com/oberoiharshith/OptiGrade"
     }
   },
   {
     title: "TweetPrime",
-    description: "Lightweight analytics stack that ingests tweets, stores them across relational, document, and graph databases, then serves low-latency insights through a FastAPI layer.",
+    description: "Ingests tweets, stores them in MySQL + MongoDB + Neo4j, then serves low-latency insights through a FastAPI layer for BI dashboards.",
     image: "https://images.unsplash.com/photo-1611224923853-80b023f02d71?w=500&h=300&fit=crop",
-    tech: ["BERT", "PyTorch", "FastAPI", "Redis"],
+    tech: ["Python", "FastAPI", "MySQL", "MongoDB", "Neo4j"],
     links: {
       code: "https://github.com/oberoiharshith/TweetPrime"
     }
   },
   {
     title: "SocioCrime",
-    description: "Research project using national survey data to uncover how socioeconomic factors influence crime-reporting behavior with interpretable regression and ML models.",
+    description: "Survey-data study uncovering socioeconomic drivers behind crime-reporting, using interpretable regression and ML models.",
     image: "https://images.unsplash.com/photo-1518186285589-2f7649de83e0?w=500&h=300&fit=crop",
-    tech: ["Apache Airflow", "Docker", "Terraform", "Python"],
+    tech: ["Python", "R", "Pandas", "Statsmodels", "scikit-learn"],
     links: {
       code: "https://github.com/oberoiharshith/Socioeconomic-Dynamics-of-Crime-Reporting-"
     }

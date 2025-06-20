@@ -3,6 +3,13 @@ import { Button } from '@/components/ui/button';
 import { Download, Mail, Github, Linkedin, Youtube } from 'lucide-react';
 
 const Hero = () => {
+  const scrollToContact = () => {
+    const contactSection = document.getElementById('contact-form');
+    if (contactSection) {
+      contactSection.scrollIntoView({ behavior: 'smooth' });
+    }
+  };
+
   return (
     <section className="min-h-screen flex items-center justify-center bg-gradient-to-br from-white to-gray-50 px-4">
       <div className="max-w-4xl mx-auto text-center animate-fade-in">
@@ -28,9 +35,8 @@ const Hero = () => {
           <Button 
             variant="outline" 
             size="lg"
-            id="contact-btn"
             className="border-rutgers-red text-rutgers-red hover:bg-rutgers-red hover:text-white px-8 py-3 rounded-2xl transition-all duration-300 hover:scale-105"
-            onClick={() => window.location.href = 'mailto:oberoiharshith@gmail.com'}
+            onClick={scrollToContact}
           >
             <Mail className="mr-2 h-5 w-5" />
             Let's Talk
