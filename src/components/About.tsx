@@ -11,11 +11,11 @@ const About = () => {
           <div className="grid md:grid-cols-2 gap-12 items-center">
             <div className="space-y-6">
               <p className="text-lg text-gray-700 leading-relaxed">
-                I'm a Rutgers-trained data scientist who shaved 60% off Mercedes-Benz test validations and streams 10M telemetry rows a day without breaking a sweat. I build end-to-end ML products—chatbots, time-series engines, real-time dashboards—and teach the next generation to do the same.
+                I'm a Rutgers-trained data scientist who <strong>cut Mercedes-Benz test-validation cycles by 60%</strong> and keeps <strong>10M telemetry rows flowing daily</strong> at 99.7% SLA. In three years of professional ML & analytics I've shipped chatbots, time-series engines, and real-time dashboards that turn raw data into dollars saved.
               </p>
               
               <p className="text-lg text-gray-700 leading-relaxed">
-                If your team needs someone who speaks both Python and business, let's talk.
+                I'm a resilient, "loud-thinker" who isn't shy about asking the tough questions early so projects don't derail late. If your team needs someone fluent in both Python <em>and</em> business impact, let's talk.
               </p>
             </div>
             
@@ -25,7 +25,7 @@ const About = () => {
               <div className="space-y-4">
                 <div className="flex items-start">
                   <span className="text-rutgers-red font-bold mr-2">•</span>
-                  <span className="text-gray-700">5 yrs analytics & ML experience | 3 continents of stakeholders served</span>
+                  <span className="text-gray-700">3+ yrs analytics & ML across 3 continents</span>
                 </div>
                 
                 <div className="flex items-start">
@@ -35,12 +35,12 @@ const About = () => {
                 
                 <div className="flex items-start">
                   <span className="text-rutgers-red font-bold mr-2">•</span>
-                  <span className="text-gray-700">Passion: turning data noise into decisions that save time & money</span>
+                  <span className="text-gray-700">Edge: Turns data noise into money-saving decisions</span>
                 </div>
                 
                 <div className="flex items-start">
                   <span className="text-rutgers-red font-bold mr-2">•</span>
-                  <span className="text-gray-700">Always remote-ready and visa-authorized—wherever the challenge is</span>
+                  <span className="text-gray-700">Remote-ready & visa-authorized — wherever the challenge is</span>
                 </div>
               </div>
             </div>

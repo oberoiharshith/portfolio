@@ -11,7 +11,7 @@ const projects = [
     tech: ["Python", "RAG", "Docker", "Mistral-7B"],
     metric: "+35% ROUGE-1",
     links: {
-      code: "#",
+      code: "https://github.com/oberoiharshith/Lang2Query",
       blog: "#",
       demo: "#"
     }
@@ -23,19 +23,8 @@ const projects = [
     tech: ["PySpark", "Kafka", "Azure", "XGBoost"],
     metric: "99.7% SLA",
     links: {
-      code: "#",
+      code: "https://github.com/oberoiharshith/SignalSense",
       blog: "#"
-    }
-  },
-  {
-    title: "CloudBridge",
-    description: "Multi-cloud data pipeline orchestrating ETL workflows across AWS, Azure, and GCP.",
-    image: "https://images.unsplash.com/photo-1518186285589-2f7649de83e0?w=500&h=300&fit=crop",
-    tech: ["Apache Airflow", "Docker", "Terraform", "Python"],
-    metric: "60% faster processing",
-    links: {
-      code: "#",
-      demo: "#"
     }
   },
   {
@@ -45,7 +34,7 @@ const projects = [
     tech: ["BERT", "PyTorch", "FastAPI", "Redis"],
     metric: "92% accuracy",
     links: {
-      code: "#",
+      code: "https://github.com/oberoiharshith/TweetPrime",
       blog: "#",
       demo: "#"
     }
@@ -57,7 +46,18 @@ const projects = [
     tech: ["spaCy", "NLTK", "Flask", "PostgreSQL"],
     metric: "500+ students",
     links: {
-      code: "#",
+      code: "https://github.com/oberoiharshith/OptiGrade",
+      demo: "#"
+    }
+  },
+  {
+    title: "Socioeconomic Dynamics of Crime",
+    description: "Multi-cloud data pipeline orchestrating ETL workflows across AWS, Azure, and GCP.",
+    image: "https://images.unsplash.com/photo-1518186285589-2f7649de83e0?w=500&h=300&fit=crop",
+    tech: ["Apache Airflow", "Docker", "Terraform", "Python"],
+    metric: "60% faster processing",
+    links: {
+      code: "https://github.com/oberoiharshith/Socioeconomic-Dynamics-of-Crime-Reporting-",
       demo: "#"
     }
   }
@@ -111,7 +111,12 @@ const FeaturedProjects = () => {
                   
                   <div className="flex gap-2 flex-wrap">
                     {project.links.code && (
-                      <Button size="sm" variant="outline" className="text-xs">
+                      <Button 
+                        size="sm" 
+                        variant="outline" 
+                        className="text-xs"
+                        onClick={() => window.open(project.links.code, '_blank')}
+                      >
                         <Github className="w-3 h-3 mr-1" />
                         Code
                       </Button>

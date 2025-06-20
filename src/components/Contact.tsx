@@ -29,7 +29,7 @@ const Contact = () => {
               variant="outline"
               size="lg"
               className="border-rutgers-red text-rutgers-red hover:bg-rutgers-red hover:text-white px-8 py-3 rounded-2xl transition-all duration-300 hover:scale-105"
-              onClick={() => window.open('https://linkedin.com/in/harshithoberoii', '_blank')}
+              onClick={() => window.open('https://www.linkedin.com/in/harshith-oberoi/', '_blank')}
             >
               <Linkedin className="mr-2 h-5 w-5" />
               LinkedIn
