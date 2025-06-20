@@ -5,23 +5,23 @@ import { ExternalLink, Youtube, BookOpen } from 'lucide-react';
 const teachingItems = [
   {
     title: "Rutgers Lecturer",
-    description: "Teaching graduate-level Data Science courses to 200+ students with focus on practical ML applications.",
+    description: "Teaching graduate-level Data Science courses to 50+ students with focus on practical ML applications.",
     icon: "🎓",
     type: "Teaching"
   },
   {
     title: "YouTube Tutorials",
-    description: "Bite-sized machine learning tutorials with 50K+ views, making complex concepts accessible.",
+    description: "Bite-sized machine learning tutorials with data science project walkthroughs and coding best practices.",
     icon: "📺",
     type: "Content",
-    link: "#"
+    link: "https://www.youtube.com/playlist?list=PLjZSJ3VhEZRJxMoHkcSCcescvi3uxhVce"
   },
   {
     title: "Tech Blog",
     description: "Deep-dive articles on MLOps, data engineering, and AI implementation best practices.",
     icon: "📝",
     type: "Writing",
-    link: "#"
+    link: "https://medium.com/@harshith_oberoi"
   }
 ];
 
@@ -64,7 +64,7 @@ const Teaching = () => {
                     size="sm"
                     variant="outline"
                     className="text-rutgers-red border-rutgers-red hover:bg-rutgers-red hover:text-white"
-                    onClick={() => window.open(item.link, '_blank')}
+                    onClick={() => window.open(item.link, '_blank', 'noopener,noreferrer')}
                   >
                     {item.type === 'Content' ? (
                       <Youtube className="w-4 h-4 mr-1" />

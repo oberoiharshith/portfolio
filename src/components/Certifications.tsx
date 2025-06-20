@@ -3,37 +3,37 @@ const certifications = [
   {
     name: "Bloomberg Market Concepts",
     logo: "📈",
-    link: "https://portal.bloombergforeducation.com/certificates/XgU83hRCJHmhpZC3sJ7iXZLX"
+    link: "https://portal.bloombergforeducation.com/certificates/YyEFJnJaRkCSJoRBphZWaSVM"
   },
   {
     name: "Neo4j Fundamentals",
     logo: "🕸️",
-    link: "https://graphacademy.neo4j.com/certificates/bfc7a09cea8cf08b1e41ee9c7d0e853dc5d6bfd1ac936d5a51aca4aa37e95f34.pdf"
+    link: "http://graphacademy.neo4j.com/c/0eeaa8e2-7a19-4d8b-a649-b1d37043317c/"
   },
   {
     name: "Cypher Fundamentals",
     logo: "🔗",
-    link: "https://graphacademy.neo4j.com/certificates/7e1b6f6e7bb3c68c9ccea75d47b6644c2c78f3e97f43e81ad7b48b5e2d1b568b.pdf"
+    link: "http://graphacademy.neo4j.com/c/2f822a77-375d-477e-8c80-7ba1e5d8fb3b/"
   },
   {
     name: "Using MongoDB with Python",
     logo: "🍃",
-    link: "https://university.mongodb.com/course_completion/01886a1e-0b7b-4e78-8cc0-cd7fe6651a5c"
+    link: "https://learn.mongodb.com/c/Z-4v1ODrQPu0vySvszexCA"
   },
   {
     name: "Agile Software Development",
     logo: "⚡",
-    link: "https://www.coursera.org/account/accomplishments/verify/AEFR8UA7GGDH"
+    link: "https://www.coursera.org/account/accomplishments/certificate/3MFFK9CS53KD"
   },
   {
     name: "Azure Fundamentals",
     logo: "☁️",
-    link: "https://www.credly.com/badges/8a5b5b5c-1c8e-4c7e-9b7e-1c8e4c7e9b7e"
+    link: "#"
   },
   {
     name: "A/B Testing (Udacity)",
     logo: "🧪",
-    link: "https://www.udacity.com/course/ab-testing--ud257"
+    link: "#"
   }
 ];
 

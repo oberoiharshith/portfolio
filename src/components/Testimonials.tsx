@@ -3,17 +3,17 @@ const metrics = [
   {
     value: "60%",
     label: "Faster Validation",
-    description: "Test validation time reduction at Mercedes-Benz"
+    description: "Mercedes-Benz"
   },
   {
     value: "10M",
     label: "Events/Day",
-    description: "Real-time telemetry processing with 99.7% SLA"
+    description: "99.7% SLA"
   },
   {
     value: "88%",
-    label: "Precision",
-    description: "Chatbot top-3 accuracy on 35K support tickets"
+    label: "Chatbot Precision",
+    description: "Cogent"
   }
 ];
 
@@ -26,7 +26,7 @@ const Testimonials = () => {
             Impact Metrics
           </h2>
           
-          <div className="grid md:grid-cols-3 gap-8 mb-16">
+          <div className="grid md:grid-cols-3 gap-8">
             {metrics.map((metric, index) => (
               <div
                 key={metric.label}
@@ -44,15 +44,6 @@ const Testimonials = () => {
                 </p>
               </div>
             ))}
-          </div>
-          
-          <div className="bg-gray-50 p-8 rounded-2xl text-center animate-on-scroll">
-            <blockquote className="text-lg md:text-xl text-gray-700 italic mb-4">
-              "Harshith consistently delivers exceptional results, combining technical expertise with business acumen. His ability to translate complex data insights into actionable strategies has been invaluable to our team."
-            </blockquote>
-            <cite className="text-rutgers-red font-semibold">
-              — Senior Engineering Manager, Mercedes-Benz
-            </cite>
           </div>
         </div>
       </div>

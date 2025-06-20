@@ -11,11 +11,11 @@ const About = () => {
           <div className="grid md:grid-cols-2 gap-12 items-center">
             <div className="space-y-6">
               <p className="text-lg text-gray-700 leading-relaxed">
-                I'm a Rutgers-trained data scientist who <strong>cut Mercedes-Benz test-validation cycles by 60%</strong> and keeps <strong>10M telemetry rows flowing daily</strong> at 99.7% SLA. In three years of professional ML & analytics I've shipped chatbots, time-series engines, and real-time dashboards that turn raw data into dollars saved.
+                I'm a Rutgers-trained data scientist who <strong>cut Mercedes-Benz test-validation time by 60%</strong> and keeps <strong>10M telemetry rows flowing daily</strong> at 99.7% SLA. In three years of ML & analytics I've shipped chatbots, trading models, and real-time dashboards that turn raw data into dollars saved.
               </p>
               
               <p className="text-lg text-gray-700 leading-relaxed">
-                I'm a resilient, "loud-thinker" who isn't shy about asking the tough questions early so projects don't derail late. If your team needs someone fluent in both Python <em>and</em> business impact, let's talk.
+                A resilient, loud thinker, I ask the tough questions early so projects don't derail late. If your team needs someone fluent in both Python <em>and</em> business impact, let's talk.
               </p>
             </div>
             
@@ -25,12 +25,12 @@ const About = () => {
               <div className="space-y-4">
                 <div className="flex items-start">
                   <span className="text-rutgers-red font-bold mr-2">•</span>
-                  <span className="text-gray-700">3+ yrs analytics & ML across 3 continents</span>
+                  <span className="text-gray-700">3 yrs ML / analytics across 3 continents</span>
                 </div>
                 
                 <div className="flex items-start">
                   <span className="text-rutgers-red font-bold mr-2">•</span>
-                  <span className="text-gray-700">Toolbox: Python · SQL · PySpark · TensorFlow · AWS/Azure/GCP</span>
+                  <span className="text-gray-700">Toolbox: Python · SQL · PySpark · TensorFlow · AWS / Azure / GCP</span>
                 </div>
                 
                 <div className="flex items-start">

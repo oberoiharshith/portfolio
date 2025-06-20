@@ -1,43 +1,48 @@
 
 const experiences = [
   {
-    role: "Lecturer, Data Science",
+    role: "Lecturer & TA – Intro to Data Science",
     company: "Rutgers University",
-    period: "2023 - Present",
+    period: "Jan 2025 – May 2025",
     logo: "🎓",
     bullets: [
-      "Teaching 200+ graduate students machine learning fundamentals and advanced analytics",
-      "Developed curriculum integrating Python, R, and cloud platforms with 95% student satisfaction"
+      "Mentored 50+ students with 40+ Python mini-projects; course scores rose markedly"
     ]
   },
   {
-    role: "Senior Data Scientist",
+    role: "Data Science Intern",
     company: "Cogent Infotech",
-    period: "2022 - 2023",
+    period: "Jan 2024 – May 2024",
     logo: "📊",
     bullets: [
-      "Built end-to-end ML pipeline processing 50M+ financial records with 99.2% accuracy",
-      "Led cross-functional team of 6 engineers delivering $2M cost savings through automation"
+      "Built LangChain-based chatbot on 35K support tickets; improved answer precision and latency"
     ]
   },
   {
-    role: "Data Scientist",
-    company: "Mercedes-Benz (Capgemini)",
-    period: "2020 - 2022",
+    role: "Senior Analyst – Data Science & Engineering",
+    company: "Capgemini / Mercedes-Benz",
+    period: "Jul 2022 – Jul 2023",
     logo: "🚗",
     bullets: [
-      "Reduced vehicle test validation time by 60% using ensemble ML models on telemetry data",
-      "Deployed real-time monitoring system handling 10M events/day with 99.7% SLA"
+      "Deployed Random-Forest risk filter to slash validation time; managed PySpark + Airflow telemetry pipeline"
     ]
   },
   {
-    role: "Analytics Engineer",
-    company: "Itronix Solutions",
-    period: "2019 - 2020",
+    role: "Analyst – Systems Eng & Automation",
+    company: "Capgemini",
+    period: "Mar 2021 – Jun 2022",
     logo: "⚡",
     bullets: [
-      "Designed ETL pipelines processing 5TB+ daily data with 40% performance improvement",
-      "Created interactive dashboards used by C-suite for strategic decision making"
+      "Led sentiment analysis on 50K reviews; automated SysML diagramming, saving engineering effort"
+    ]
+  },
+  {
+    role: "Data Science Intern",
+    company: "Itronix Solutions",
+    period: "Jan 2020 – Jul 2020",
+    logo: "💡",
+    bullets: [
+      "Developed COVID-19 forecasting models adopted by local authorities"
     ]
   }
 ];
@@ -79,7 +84,7 @@ const Experience = () => {
                   <ul className="space-y-2">
                     {exp.bullets.map((bullet, bulletIndex) => (
                       <li key={bulletIndex} className="flex items-start">
-                        <span className="text-rutgers-red font-bold mr-2 flex-shrink-0">•</span>
+                        <span className="text-rutgers-red font-bold mr-2 flex-shrink-0">–</span>
                         <span className="text-gray-600 text-sm leading-relaxed">
                           {bullet}
                         </span>

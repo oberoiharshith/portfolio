@@ -1,64 +1,52 @@
 
 import { Button } from '@/components/ui/button';
 import { Badge } from '@/components/ui/badge';
-import { ExternalLink, Github, Play } from 'lucide-react';
+import { Github } from 'lucide-react';
 
 const projects = [
   {
     title: "Lang2Query",
-    description: "Natural-language → SQL generator Fine-tuned Mistral-7B with LoRA & FAISS; +35% ROUGE-1 vs baseline.",
-    image: "https://images.unsplash.com/photo-1551288049-bebda4e38f71?w=500&h=300&fit=crop",
+    description: "Fine-tunes Mistral-7B with LoRA, RAG, and FAISS to convert natural-language questions into executable SQL for analytics teams.",
+    image: "https://images.unsplash.com/photo-1555066931-4365d14bab8c?w=500&h=300&fit=crop",
     tech: ["Python", "RAG", "Docker", "Mistral-7B"],
-    metric: "+35% ROUGE-1",
     links: {
-      code: "https://github.com/oberoiharshith/Lang2Query",
-      blog: "#",
-      demo: "#"
+      code: "https://github.com/oberoiharshith/Lang2Query"
     }
   },
   {
     title: "SignalSense",
-    description: "Real-time anomaly detection system processing 10M+ telemetry events daily with 99.7% SLA.",
-    image: "https://images.unsplash.com/photo-1551288049-bebda4e38f71?w=500&h=300&fit=crop",
+    description: "Machine-learning trading framework that evaluates time-series models, applies rolling risk controls, and rigorously validates strategies through back- and forward-testing.",
+    image: "https://images.unsplash.com/photo-1611974789855-9c2a0a7236a3?w=500&h=300&fit=crop",
     tech: ["PySpark", "Kafka", "Azure", "XGBoost"],
-    metric: "99.7% SLA",
     links: {
-      code: "https://github.com/oberoiharshith/SignalSense",
-      blog: "#"
-    }
-  },
-  {
-    title: "TweetPrime",
-    description: "Sentiment analysis engine with transformer models achieving 92% accuracy on financial tweets.",
-    image: "https://images.unsplash.com/photo-1611224923853-80b023f02d71?w=500&h=300&fit=crop",
-    tech: ["BERT", "PyTorch", "FastAPI", "Redis"],
-    metric: "92% accuracy",
-    links: {
-      code: "https://github.com/oberoiharshith/TweetPrime",
-      blog: "#",
-      demo: "#"
+      code: "https://github.com/oberoiharshith/SignalSense"
     }
   },
   {
     title: "OptiGrade",
-    description: "Automated essay scoring system using NLP techniques, deployed for 500+ students.",
+    description: "End-to-end pipeline for predicting student performance. Combines ensemble regressors, hyper-parameter tuning, and automated CI/CD to an AWS Beanstalk endpoint.",
     image: "https://images.unsplash.com/photo-1456513080510-7bf3a84b82f8?w=500&h=300&fit=crop",
     tech: ["spaCy", "NLTK", "Flask", "PostgreSQL"],
-    metric: "500+ students",
     links: {
-      code: "https://github.com/oberoiharshith/OptiGrade",
-      demo: "#"
+      code: "https://github.com/oberoiharshith/OptiGrade"
     }
   },
   {
-    title: "Socioeconomic Dynamics of Crime",
-    description: "Multi-cloud data pipeline orchestrating ETL workflows across AWS, Azure, and GCP.",
+    title: "TweetPrime",
+    description: "Lightweight analytics stack that ingests tweets, stores them across relational, document, and graph databases, then serves low-latency insights through a FastAPI layer.",
+    image: "https://images.unsplash.com/photo-1611224923853-80b023f02d71?w=500&h=300&fit=crop",
+    tech: ["BERT", "PyTorch", "FastAPI", "Redis"],
+    links: {
+      code: "https://github.com/oberoiharshith/TweetPrime"
+    }
+  },
+  {
+    title: "SocioCrime",
+    description: "Research project using national survey data to uncover how socioeconomic factors influence crime-reporting behavior with interpretable regression and ML models.",
     image: "https://images.unsplash.com/photo-1518186285589-2f7649de83e0?w=500&h=300&fit=crop",
     tech: ["Apache Airflow", "Docker", "Terraform", "Python"],
-    metric: "60% faster processing",
     links: {
-      code: "https://github.com/oberoiharshith/Socioeconomic-Dynamics-of-Crime-Reporting-",
-      demo: "#"
+      code: "https://github.com/oberoiharshith/Socioeconomic-Dynamics-of-Crime-Reporting-"
     }
   }
 ];
@@ -88,14 +76,9 @@ const FeaturedProjects = () => {
                 </div>
                 
                 <div className="p-6">
-                  <div className="flex items-center justify-between mb-3">
-                    <h3 className="text-xl font-epilogue font-bold text-gray-900">
-                      {project.title}
-                    </h3>
-                    <Badge variant="secondary" className="bg-rutgers-red/10 text-rutgers-red">
-                      {project.metric}
-                    </Badge>
-                  </div>
+                  <h3 className="text-xl font-epilogue font-bold text-gray-900 mb-3">
+                    {project.title}
+                  </h3>
                   
                   <p className="text-gray-600 mb-4 text-sm leading-relaxed">
                     {project.description}
@@ -109,30 +92,16 @@ const FeaturedProjects = () => {
                     ))}
                   </div>
                   
-                  <div className="flex gap-2 flex-wrap">
-                    {project.links.code && (
-                      <Button 
-                        size="sm" 
-                        variant="outline" 
-                        className="text-xs"
-                        onClick={() => window.open(project.links.code, '_blank')}
-                      >
-                        <Github className="w-3 h-3 mr-1" />
-                        Code
-                      </Button>
-                    )}
-                    {project.links.blog && (
-                      <Button size="sm" variant="outline" className="text-xs">
-                        <ExternalLink className="w-3 h-3 mr-1" />
-                        Blog
-                      </Button>
-                    )}
-                    {project.links.demo && (
-                      <Button size="sm" variant="outline" className="text-xs">
-                        <Play className="w-3 h-3 mr-1" />
-                        Demo
-                      </Button>
-                    )}
+                  <div className="flex gap-2">
+                    <Button 
+                      size="sm" 
+                      variant="outline" 
+                      className="text-xs"
+                      onClick={() => window.open(project.links.code, '_blank', 'noopener,noreferrer')}
+                    >
+                      <Github className="w-3 h-3 mr-1" />
+                      Code ↗
+                    </Button>
                   </div>
                 </div>
               </div>

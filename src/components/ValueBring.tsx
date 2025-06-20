@@ -3,15 +3,15 @@ const ValueBring = () => {
   const values = [
     {
       title: "Rapid Impact",
-      description: "Drops 60% of cycle time within first release"
+      description: "Drops cycle time fast"
     },
     {
       title: "End-to-End Builder", 
-      description: "Ideation ➜ deployment ➜ dashboard in one sprint"
+      description: "Idea ➜ model ➜ dashboard in one sprint"
     },
     {
       title: "Fearless Communicator",
-      description: "Asks hard questions early; de-risks scope"
+      description: "De-risks scope by asking \"why?\" early"
     }
   ];
 

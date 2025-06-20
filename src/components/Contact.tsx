@@ -1,6 +1,6 @@
 
 import { Button } from '@/components/ui/button';
-import { Mail, Linkedin, Github } from 'lucide-react';
+import { Mail, Linkedin, Github, Youtube } from 'lucide-react';
 
 const Contact = () => {
   return (
@@ -12,14 +12,14 @@ const Contact = () => {
           </h2>
           
           <p className="text-xl text-gray-600 mb-12">
-            Open to remote opportunities worldwide • Ready to make an impact
+            Open to remote opportunities worldwide — ready to make an impact
           </p>
           
           <div className="flex flex-col sm:flex-row gap-4 justify-center items-center mb-16">
             <Button
               size="lg"
               className="bg-rutgers-red hover:bg-rutgers-red-dark text-white px-8 py-3 rounded-2xl transition-all duration-300 hover:scale-105"
-              onClick={() => window.location.href = 'mailto:harshith.oberoi@example.com'}
+              onClick={() => window.location.href = 'mailto:oberoiharshith@gmail.com'}
             >
               <Mail className="mr-2 h-5 w-5" />
               Email Me
@@ -29,7 +29,7 @@ const Contact = () => {
               variant="outline"
               size="lg"
               className="border-rutgers-red text-rutgers-red hover:bg-rutgers-red hover:text-white px-8 py-3 rounded-2xl transition-all duration-300 hover:scale-105"
-              onClick={() => window.open('https://www.linkedin.com/in/harshith-oberoi/', '_blank')}
+              onClick={() => window.open('https://www.linkedin.com/in/harshith-oberoi/', '_blank', 'noopener,noreferrer')}
             >
               <Linkedin className="mr-2 h-5 w-5" />
               LinkedIn
@@ -38,11 +38,21 @@ const Contact = () => {
             <Button
               variant="outline"
               size="lg"
-              className="border-rutgers-red text-rutgers-red hover:bg-rutgers-red hover:text-white px-8 py-3 rounded-2xl transition-all duration-300 hover:scale-105"
-              onClick={() => window.open('https://github.com/oberoiharshith', '_blank')}
+              className="border-rutgers-red text-rutgers-red hover:bg-rut gers-red hover:text-white px-8 py-3 rounded-2xl transition-all duration-300 hover:scale-105"
+              onClick={() => window.open('https://github.com/oberoiharshith', '_blank', 'noopener,noreferrer')}
             >
               <Github className="mr-2 h-5 w-5" />
               GitHub
+            </Button>
+
+            <Button
+              variant="outline"
+              size="lg"
+              className="border-rutgers-red text-rutgers-red hover:bg-rutgers-red hover:text-white px-8 py-3 rounded-2xl transition-all duration-300 hover:scale-105"
+              onClick={() => window.open('https://www.youtube.com/playlist?list=PLjZSJ3VhEZRJxMoHkcSCcescvi3uxhVce', '_blank', 'noopener,noreferrer')}
+            >
+              <Youtube className="mr-2 h-5 w-5" />
+              YouTube
             </Button>
           </div>
           
