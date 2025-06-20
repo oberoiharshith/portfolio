@@ -40,7 +40,7 @@ const About = () => {
                 
                 <div className="flex items-start">
                   <span className="text-rutgers-red font-bold mr-2">•</span>
-                  <span className="text-gray-700">Remote-ready & visa-authorized — wherever the challenge is</span>
+                  <span className="text-gray-700">Open to on-site or remote roles — visa-authorized & relocation-friendly</span>
                 </div>
               </div>
             </div>

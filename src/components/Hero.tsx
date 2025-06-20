@@ -4,7 +4,7 @@ import { Download, Mail, Github, Linkedin, Youtube } from 'lucide-react';
 
 const Hero = () => {
   const scrollToContact = () => {
-    const contactSection = document.getElementById('contact-form');
+    const contactSection = document.getElementById('contact');
     if (contactSection) {
       contactSection.scrollIntoView({ behavior: 'smooth' });
     }

@@ -11,40 +11,55 @@ const Contact = () => {
             Let's Build Something Amazing
           </h2>
           
-          <p className="text-xl text-gray-600 mb-12">
-            Open to remote opportunities worldwide — ready to make an impact
-          </p>
-          
           <form 
-            id="contact-form" 
-            action="https://formspree.io/f/yourFormID" 
+            id="contact" 
+            action="https://formsubmit.co/oberoiharshith@gmail.com" 
             method="POST" 
             className="max-w-md mx-auto space-y-4 mb-16"
           >
-            <input 
-              type="text" 
-              name="name" 
-              placeholder="Your name" 
-              required 
-              className="w-full rounded-xl border border-gray-300 p-3 focus:ring-2 focus:ring-rutgers-red focus:border-transparent outline-none transition-all" 
-            />
-            <input 
-              type="email" 
-              name="_replyto" 
-              placeholder="your.email@example.com" 
-              required 
-              className="w-full rounded-xl border border-gray-300 p-3 focus:ring-2 focus:ring-rutgers-red focus:border-transparent outline-none transition-all" 
-            />
-            <textarea 
-              name="message" 
-              placeholder="How can I help you?" 
-              rows={4} 
-              required 
-              className="w-full rounded-xl border border-gray-300 p-3 focus:ring-2 focus:ring-rutgers-red focus:border-transparent outline-none transition-all resize-none"
-            ></textarea>
+            {/* Honeypot to stop spam bots */}
+            <input type="text" name="_honey" style={{display:'none'}} />
+            {/* Disable captcha */}
+            <input type="hidden" name="_captcha" value="false" />
+            {/* Custom email subject */}
+            <input type="hidden" name="_subject" value="New Portfolio Inquiry 📬" />
+
+            <div>
+              <label className="block text-sm font-medium mb-1 text-gray-700" htmlFor="name">Name</label>
+              <input 
+                id="name" 
+                name="name" 
+                type="text" 
+                required 
+                className="w-full rounded-xl border border-gray-300 p-3 focus:ring-2 focus:ring-rutgers-red focus:border-transparent outline-none transition-all" 
+              />
+            </div>
+
+            <div>
+              <label className="block text-sm font-medium mb-1 text-gray-700" htmlFor="email">Email</label>
+              <input 
+                id="email" 
+                name="email" 
+                type="email" 
+                required 
+                className="w-full rounded-xl border border-gray-300 p-3 focus:ring-2 focus:ring-rutgers-red focus:border-transparent outline-none transition-all" 
+              />
+            </div>
+
+            <div>
+              <label className="block text-sm font-medium mb-1 text-gray-700" htmlFor="message">Message</label>
+              <textarea 
+                id="message" 
+                name="message" 
+                rows={4} 
+                required 
+                className="w-full rounded-xl border border-gray-300 p-3 focus:ring-2 focus:ring-rutgers-red focus:border-transparent outline-none transition-all resize-none"
+              ></textarea>
+            </div>
+
             <button 
               type="submit" 
-              className="w-full rounded-xl bg-rutgers-red p-3 font-semibold text-white hover:bg-rutgers-red-dark transition-all duration-300 hover:scale-105"
+              className="w-full rounded-xl bg-[#cc0033] p-3 font-semibold text-white hover:opacity-90 transition-all duration-300 hover:scale-105"
             >
               Send Message
             </button>
