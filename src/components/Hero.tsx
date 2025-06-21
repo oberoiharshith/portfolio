@@ -41,6 +41,7 @@ const Hero = () => {
           <a 
             href="#contact" 
             className="rounded-xl bg-[#cc0033] px-6 py-3 font-semibold text-white hover:opacity-90 transition-all duration-300 hover:scale-105 inline-flex items-center"
+            onClick={scrollToContact}
           >
             <Mail className="mr-2 h-5 w-5" />
             Let's Talk
