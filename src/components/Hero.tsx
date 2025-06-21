@@ -17,10 +17,12 @@ const Hero = () => {
   return (
     <section className="min-h-screen flex items-center justify-center bg-gradient-to-br from-white to-gray-50 px-4">
       <div className="max-w-4xl mx-auto text-center animate-fade-in">
-        <h1 className="text-5xl md:text-7xl font-epilogue font-bold text-gray-900 mb-6">
-          Turning Data into{' '}
-          <span className="text-rutgers-red">Decisions</span>—Fast.
+        <h1 className="text-4xl md:text-5xl font-extrabold mb-2 text-gray-900">
+          Harshith Oberoi
         </h1>
+        <h2 className="text-2xl md:text-3xl font-semibold mb-6 text-gray-700">
+          Turning Data into Decisions—Fast.
+        </h2>
         
         <h3 className="text-xl md:text-2xl text-gray-600 mb-8 font-inter">
           Machine Learning • Data Science • Business Impact
@@ -36,15 +38,13 @@ const Hero = () => {
             Download Résumé
           </Button>
           
-          <Button 
-            variant="outline" 
-            size="lg"
-            className="border-rutgers-red text-rutgers-red hover:bg-rutgers-red hover:text-white px-8 py-3 rounded-2xl transition-all duration-300 hover:scale-105"
-            onClick={handleEmailClick}
+          <a 
+            href="#contact" 
+            className="rounded-xl bg-[#cc0033] px-6 py-3 font-semibold text-white hover:opacity-90 transition-all duration-300 hover:scale-105 inline-flex items-center"
           >
             <Mail className="mr-2 h-5 w-5" />
             Let's Talk
-          </Button>
+          </a>
         </div>
 
         <div className="flex justify-center gap-6">
