@@ -10,6 +10,10 @@ const Hero = () => {
     }
   };
 
+  const handleEmailClick = () => {
+    window.open('mailto:oberoiharshith@gmail.com', '_blank');
+  };
+
   return (
     <section className="min-h-screen flex items-center justify-center bg-gradient-to-br from-white to-gray-50 px-4">
       <div className="max-w-4xl mx-auto text-center animate-fade-in">
@@ -36,7 +40,7 @@ const Hero = () => {
             variant="outline" 
             size="lg"
             className="border-rutgers-red text-rutgers-red hover:bg-rutgers-red hover:text-white px-8 py-3 rounded-2xl transition-all duration-300 hover:scale-105"
-            onClick={scrollToContact}
+            onClick={handleEmailClick}
           >
             <Mail className="mr-2 h-5 w-5" />
             Let's Talk
