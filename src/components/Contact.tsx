@@ -3,6 +3,10 @@ import { Button } from '@/components/ui/button';
 import { Mail, Linkedin, Github, Youtube } from 'lucide-react';
 
 const Contact = () => {
+  const handleEmailClick = () => {
+    window.location.href = 'mailto:oberoiharshith@gmail.com';
+  };
+
   return (
     <section className="py-20 px-4 bg-gray-50">
       <div className="max-w-4xl mx-auto text-center">
@@ -12,12 +16,12 @@ const Contact = () => {
           </h2>
           
           <div id="contact" className="text-center space-y-6 mb-16">
-            <a 
-              href="mailto:oberoiharshith@gmail.com"
+            <button 
+              onClick={handleEmailClick}
               className="inline-block rounded-xl bg-[#cc0033] px-6 py-3 font-semibold text-white hover:opacity-90 transition-all duration-300 hover:scale-105"
             >
               Email Me
-            </a>
+            </button>
 
             <div className="mt-4 flex justify-center gap-6">
               <a 
