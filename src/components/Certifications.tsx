@@ -1,3 +1,4 @@
+import { useEffect } from 'react';
 
 const certifications = [
   {
@@ -39,7 +40,7 @@ const certifications = [
 
 const Certifications = () => {
   return (
-    <section className="py-20 px-4 bg-white">
+    <section id="certifications" className="py-20 px-4 bg-white">
       <div className="max-w-6xl mx-auto">
         <div className="animate-on-scroll">
           <h2 className="text-4xl md:text-5xl font-epilogue font-bold text-center text-gray-900 mb-16">

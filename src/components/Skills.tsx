@@ -1,4 +1,3 @@
-
 import { Badge } from '@/components/ui/badge';
 
 const skillCategories = [
@@ -26,7 +25,7 @@ const skillCategories = [
 
 const Skills = () => {
   return (
-    <section className="py-20 px-4 bg-gray-50">
+    <section id="skills" className="py-20 px-4 bg-gray-50">
       <div className="max-w-6xl mx-auto">
         <div className="animate-on-scroll">
           <h2 className="text-4xl md:text-5xl font-epilogue font-bold text-center text-gray-900 mb-16">

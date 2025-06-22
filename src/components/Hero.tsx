@@ -14,7 +14,7 @@ const Hero = () => {
   };
 
   return (
-    <section className="min-h-screen pt-20 flex items-center justify-center bg-gradient-to-br from-white to-gray-50 px-4">
+    <section id="home" className="min-h-screen pt-20 flex items-center justify-center bg-gradient-to-br from-white to-gray-50 px-4">
       <div className="max-w-4xl mx-auto text-center animate-fade-in">
         <h1 className="text-4xl md:text-5xl font-extrabold mb-2 text-gray-900">
           Harshith Oberoi

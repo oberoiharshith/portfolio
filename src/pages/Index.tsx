@@ -37,9 +37,13 @@ const Index = () => {
   return (
     <div className="min-h-screen bg-white">
       <header className="fixed top-0 left-0 right-0 bg-white/80 backdrop-blur z-50">
-        <nav className="max-w-5xl mx-auto flex justify-end space-x-6 py-3 px-4 text-sm font-medium">
-          <a href="#projects" className="text-gray-600 hover:text-[#cc0033]">Projects</a>
+        <nav className="max-w-full mx-auto flex justify-end space-x-4 py-3 px-6 text-sm font-medium">
+          <a href="#home" className="text-gray-600 hover:text-[#cc0033]">Home</a>
+          <a href="#about" className="text-gray-600 hover:text-[#cc0033]">Education</a>
+          <a href="#skills" className="text-gray-600 hover:text-[#cc0033]">Skills</a>
           <a href="#experience" className="text-gray-600 hover:text-[#cc0033]">Experience</a>
+          <a href="#projects" className="text-gray-600 hover:text-[#cc0033]">Projects</a>
+          <a href="#certifications" className="text-gray-600 hover:text-[#cc0033]">Certifications</a>
           <a href="#contact" className="text-gray-600 hover:text-[#cc0033]">Contact</a>
         </nav>
       </header>
