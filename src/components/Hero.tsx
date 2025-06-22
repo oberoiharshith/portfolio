@@ -1,4 +1,3 @@
-
 import { Button } from '@/components/ui/button';
 import { Download, Mail, Github, Linkedin, Youtube } from 'lucide-react';
 
@@ -15,7 +14,7 @@ const Hero = () => {
   };
 
   return (
-    <section className="min-h-screen flex items-center justify-center bg-gradient-to-br from-white to-gray-50 px-4">
+    <section className="min-h-screen pt-20 flex items-center justify-center bg-gradient-to-br from-white to-gray-50 px-4">
       <div className="max-w-4xl mx-auto text-center animate-fade-in">
         <h1 className="text-4xl md:text-5xl font-extrabold mb-2 text-gray-900">
           Harshith Oberoi

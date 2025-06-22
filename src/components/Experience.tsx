@@ -1,4 +1,3 @@
-
 const experiences = [
   {
     role: "Lecturer & TA – Intro to Data Science",
@@ -49,7 +48,7 @@ const experiences = [
 
 const Experience = () => {
   return (
-    <section className="py-20 px-4 bg-white">
+    <section id="experience" className="py-20 px-4 bg-white">
       <div className="max-w-4xl mx-auto">
         <div className="animate-on-scroll">
           <h2 className="text-4xl md:text-5xl font-epilogue font-bold text-center text-gray-900 mb-16">
