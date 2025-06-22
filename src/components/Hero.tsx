@@ -1,3 +1,4 @@
+
 import { Button } from '@/components/ui/button';
 import { Download, Mail, Github, Linkedin, Youtube } from 'lucide-react';
 
@@ -28,14 +29,14 @@ const Hero = () => {
         </h3>
         
         <div className="flex flex-col sm:flex-row gap-4 justify-center items-center mb-8">
-          <Button 
-            size="lg" 
-            className="bg-rutgers-red hover:bg-rutgers-red-dark text-white px-8 py-3 rounded-2xl transition-all duration-300 hover:scale-105 hover:shadow-lg"
-            onClick={() => window.open('/assets/Harshith_Oberoi_Resume.pdf', '_blank')}
+          <a 
+            href="/portfolio/assets/Harshith_Oberoi_Resume.pdf" 
+            download
+            className="bg-rutgers-red hover:bg-rutgers-red-dark text-white px-8 py-3 rounded-2xl transition-all duration-300 hover:scale-105 hover:shadow-lg inline-flex items-center font-semibold"
           >
             <Download className="mr-2 h-5 w-5" />
-            Download Résumé
-          </Button>
+            Download Resume
+          </a>
           
           <a 
             href="#contact" 
