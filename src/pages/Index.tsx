@@ -49,13 +49,13 @@ const Index = () => {
       </header>
       <Hero />
       <About />
-      <FeaturedProjects />
-      <Experience />
-      <ValueBring />
       <Skills />
+      <Experience />
+      <FeaturedProjects />
       <Certifications />
       <Teaching />
       <Testimonials />
+      <ValueBring />
       <Contact />
     </div>
   );
