@@ -5,39 +5,10 @@ const About = () => {
       <div className="max-w-6xl mx-auto">
         <div className="animate-on-scroll">
           <h2 className="text-4xl md:text-5xl font-epilogue font-bold text-center text-gray-900 mb-16">
-            Education
+            About Me
           </h2>
           
-          <div className="grid md:grid-cols-2 gap-12 items-start">
-            <div className="space-y-8">
-              <div className="bg-gray-50 p-8 rounded-2xl">
-                <h3 className="text-xl font-epilogue font-bold text-gray-900 mb-2">
-                  Rutgers University
-                </h3>
-                <p className="text-gray-600 mb-2">New Brunswick, NJ</p>
-                <p className="text-lg text-gray-700 mb-1">
-                  M.S. Data Science (Statistics)
-                </p>
-                <div className="flex justify-between items-center">
-                  <span className="text-rutgers-red font-semibold">GPA: 3.85 / 4.0</span>
-                  <span className="text-gray-600">May 2025</span>
-                </div>
-              </div>
-              
-              <div className="bg-gray-50 p-8 rounded-2xl">
-                <h3 className="text-xl font-epilogue font-bold text-gray-900 mb-2">
-                  Manipal University Jaipur
-                </h3>
-                <p className="text-gray-600 mb-2">Jaipur, India</p>
-                <p className="text-lg text-gray-700 mb-1">
-                  B.Tech. Information Technology
-                </p>
-                <div className="flex justify-end">
-                  <span className="text-gray-600">Jun 2020</span>
-                </div>
-              </div>
-            </div>
-            
+          <div className="max-w-4xl mx-auto">
             <div className="space-y-6">
               <p className="text-lg text-gray-700 leading-relaxed">
                 I'm a Rutgers-trained data scientist who <strong>cut Mercedes-Benz test-validation time by 60%</strong> and keeps <strong>10M telemetry rows flowing daily</strong> at 99.7% SLA. In three years of ML & analytics I've shipped chatbots, trading models, and real-time dashboards that turn raw data into dollars saved.
