@@ -17,8 +17,7 @@ const Education = () => {
               <p className="text-lg text-gray-700 mb-1">
                 M.S. Data Science (Statistics)
               </p>
-              <div className="flex justify-between items-center">
-                <span className="text-rutgers-red font-semibold">GPA: 3.85 / 4.0</span>
+              <div className="flex justify-end">
                 <span className="text-gray-600">May 2025</span>
               </div>
             </div>
