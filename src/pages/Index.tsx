@@ -51,14 +51,14 @@ const Index = () => {
       </header>
       <Hero />
       <About />
+      <Testimonials />
+      <ValueBring />
       <Skills />
       <Experience />
       <FeaturedProjects />
       <Education />
       <Certifications />
       <Teaching />
-      <Testimonials />
-      <ValueBring />
       <Contact />
     </div>
   );
