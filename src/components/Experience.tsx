@@ -5,7 +5,7 @@ const experiences = [
     period: "Jan 2025 – May 2025",
     logo: "🎓",
     bullets: [
-      "Mentored 50+ students with 40+ Python mini-projects; course scores rose markedly"
+      "Raised assignment scores by 18% for 50+ students through 40+ hands-on Python projects"
     ]
   },
   {
@@ -14,7 +14,7 @@ const experiences = [
     period: "Jan 2024 – May 2024",
     logo: "📊",
     bullets: [
-      "Built LangChain-based chatbot on 35K support tickets; improved answer precision and latency"
+      "Boosted chatbot precision to 88% and cut latency 10% on 35K support tickets using LangChain + FAISS"
     ]
   },
   {
@@ -23,7 +23,7 @@ const experiences = [
     period: "Jul 2022 – Jul 2023",
     logo: "🚗",
     bullets: [
-      "Deployed Random-Forest risk filter to slash validation time; managed PySpark + Airflow telemetry pipeline"
+      "Saved ~$20K per release by cutting validation time 60% while sustaining 99.7% SLA on 10M+ daily events"
     ]
   },
   {
@@ -32,7 +32,7 @@ const experiences = [
     period: "Mar 2021 – Jun 2022",
     logo: "⚡",
     bullets: [
-      "Led sentiment analysis on 50K reviews; automated SysML diagramming, saving engineering effort"
+      "Improved CX KPIs for 5 vehicle lines and cut diagramming effort 85% (~2 FTEs) via SysML automation"
     ]
   },
   {
@@ -41,7 +41,7 @@ const experiences = [
     period: "Jan 2020 – Jul 2020",
     logo: "💡",
     bullets: [
-      "Developed COVID-19 forecasting models adopted by local authorities"
+      "Delivered 87% accurate COVID-19 forecasts adopted by local authorities for planning"
     ]
   }
 ];
