@@ -48,35 +48,35 @@ const Hero = () => {
           </a>
         </div>
 
-        <div className="flex justify-center gap-4 mb-8">
+        <div className="flex justify-center gap-6 mb-8">
           <a 
             href="https://github.com/oberoiharshith" 
             target="_blank" 
             rel="noopener noreferrer"
-            className="group flex items-center gap-2 px-4 py-2 rounded-lg border border-gray-200 hover:border-gray-300 bg-white/50 hover:bg-white/80 text-gray-700 hover:text-gray-900 transition-all duration-200 text-sm font-medium"
+            className="group flex items-center gap-3 px-6 py-3 rounded-xl bg-card/80 backdrop-blur-sm border border-border/50 hover:border-border hover:bg-card/90 text-card-foreground hover:text-foreground transition-all duration-300 hover:scale-105 hover:shadow-lg text-sm font-medium"
             title="View GitHub Profile"
           >
-            <Github className="h-4 w-4" />
+            <Github className="h-5 w-5 group-hover:scale-110 transition-transform duration-300" />
             <span className="hidden sm:inline">GitHub</span>
           </a>
           <a 
             href="https://www.linkedin.com/in/harshith-oberoi/" 
             target="_blank" 
             rel="noopener noreferrer"
-            className="group flex items-center gap-2 px-4 py-2 rounded-lg border border-blue-200 hover:border-blue-300 bg-blue-50/50 hover:bg-blue-50/80 text-blue-700 hover:text-blue-800 transition-all duration-200 text-sm font-medium"
+            className="group flex items-center gap-3 px-6 py-3 rounded-xl bg-blue-50/80 backdrop-blur-sm border border-blue-200/50 hover:border-blue-300 hover:bg-blue-50/90 text-blue-700 hover:text-blue-800 transition-all duration-300 hover:scale-105 hover:shadow-lg hover:shadow-blue-500/20 text-sm font-medium"
             title="Connect on LinkedIn"
           >
-            <Linkedin className="h-4 w-4" />
+            <Linkedin className="h-5 w-5 group-hover:scale-110 transition-transform duration-300" />
             <span className="hidden sm:inline">LinkedIn</span>
           </a>
           <a 
             href="https://www.youtube.com/playlist?list=PLjZSJ3VhEZRJxMoHkcSCcescvi3uxhVce" 
             target="_blank" 
             rel="noopener noreferrer"
-            className="group flex items-center gap-2 px-4 py-2 rounded-lg border border-red-200 hover:border-red-300 bg-red-50/50 hover:bg-red-50/80 text-red-700 hover:text-red-800 transition-all duration-200 text-sm font-medium"
+            className="group flex items-center gap-3 px-6 py-3 rounded-xl bg-red-50/80 backdrop-blur-sm border border-red-200/50 hover:border-red-300 hover:bg-red-50/90 text-red-700 hover:text-red-800 transition-all duration-300 hover:scale-105 hover:shadow-lg hover:shadow-red-500/20 text-sm font-medium"
             title="Watch on YouTube"
           >
-            <Youtube className="h-4 w-4" />
+            <Youtube className="h-5 w-5 group-hover:scale-110 transition-transform duration-300" />
             <span className="hidden sm:inline">YouTube</span>
           </a>
         </div>
