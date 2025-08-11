@@ -13,10 +13,11 @@ const App = () => (
     <TooltipProvider>
       <Toaster />
       <Sonner />
-      <BrowserRouter>
+      {/* IMPORTANT: set basename to the repo path */}
+      <BrowserRouter basename="/portfolio">
         <Routes>
           <Route path="/" element={<Index />} />
-          {/* ADD ALL CUSTOM ROUTES ABOVE THE CATCH-ALL "*" ROUTE */}
+          {/* add custom routes above this */}
           <Route path="*" element={<NotFound />} />
         </Routes>
       </BrowserRouter>
