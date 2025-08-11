@@ -37,16 +37,27 @@ const Index = () => {
 
   return (
     <div className="min-h-screen bg-white">
-      <header className="fixed top-0 left-0 right-0 bg-white/80 backdrop-blur z-50">
-        <nav className="max-w-full mx-auto flex justify-center space-x-4 py-3 px-6 text-sm font-medium">
-          <a href="#home" className="text-gray-600 hover:text-[#cc0033]">Home</a>
-          <a href="#about" className="text-gray-600 hover:text-[#cc0033]">About me</a>
-          <a href="#skills" className="text-gray-600 hover:text-[#cc0033]">Skills</a>
-          <a href="#experience" className="text-gray-600 hover:text-[#cc0033]">Experience</a>
-          <a href="#projects" className="text-gray-600 hover:text-[#cc0033]">Projects</a>
-          <a href="#education" className="text-gray-600 hover:text-[#cc0033]">Education</a>
-          <a href="#certifications" className="text-gray-600 hover:text-[#cc0033]">Certifications</a>
-          <a href="#contact" className="text-gray-600 hover:text-[#cc0033]">Contact</a>
+      <header className="fixed top-0 left-0 right-0 bg-white/95 backdrop-blur-sm shadow-sm z-50">
+        <nav className="max-w-6xl mx-auto flex justify-center items-center py-4 px-4">
+          <div className="hidden md:flex space-x-6 text-sm font-medium">
+            <a href="#home" className="text-gray-600 hover:text-[#cc0033] transition-colors">Home</a>
+            <a href="#about" className="text-gray-600 hover:text-[#cc0033] transition-colors">About</a>
+            <a href="#skills" className="text-gray-600 hover:text-[#cc0033] transition-colors">Skills</a>
+            <a href="#experience" className="text-gray-600 hover:text-[#cc0033] transition-colors">Experience</a>
+            <a href="#projects" className="text-gray-600 hover:text-[#cc0033] transition-colors">Projects</a>
+            <a href="#education" className="text-gray-600 hover:text-[#cc0033] transition-colors">Education</a>
+            <a href="#certifications" className="text-gray-600 hover:text-[#cc0033] transition-colors">Certifications</a>
+            <a href="#contact" className="text-gray-600 hover:text-[#cc0033] transition-colors">Contact</a>
+          </div>
+          
+          <div className="md:hidden flex space-x-4 text-xs font-medium overflow-x-auto">
+            <a href="#home" className="text-gray-600 hover:text-[#cc0033] whitespace-nowrap">Home</a>
+            <a href="#about" className="text-gray-600 hover:text-[#cc0033] whitespace-nowrap">About</a>
+            <a href="#skills" className="text-gray-600 hover:text-[#cc0033] whitespace-nowrap">Skills</a>
+            <a href="#experience" className="text-gray-600 hover:text-[#cc0033] whitespace-nowrap">Experience</a>
+            <a href="#projects" className="text-gray-600 hover:text-[#cc0033] whitespace-nowrap">Projects</a>
+            <a href="#contact" className="text-gray-600 hover:text-[#cc0033] whitespace-nowrap">Contact</a>
+          </div>
         </nav>
       </header>
       <Hero />
