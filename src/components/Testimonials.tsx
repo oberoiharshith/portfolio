@@ -14,11 +14,6 @@ const metrics = [
     value: "95%",
     label: "Model Accuracy",
     description: "EV Battery SoH Prediction"
-  },
-  {
-    value: "88%",
-    label: "Chatbot Precision",
-    description: "Cogent Infotech (35K tickets)"
   }
 ];
 
