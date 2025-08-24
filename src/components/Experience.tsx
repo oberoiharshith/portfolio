@@ -18,6 +18,7 @@ const experiences = [
       "Delivered AI adoption insights via Power BI"
     
     ]
+    
   },
   {
     role: "Senior Analyst – Data Science & Engineering",
