@@ -5,8 +5,8 @@ const experiences = [
     period: "Jan 2025 – May 2025",
     logo: "🎓",
     bullets: [
-      "Raised assignment scores by 18% for 50+ students through 40+ hands-on Python projects"
-    ]
+      "Improved transplant risk stratification by 15%",
+      "Boosted student outcomes by 30% (50+ mentored)"]
   },
   {
     role: "Data Science Intern",
@@ -14,7 +14,9 @@ const experiences = [
     period: "Jan 2024 – May 2024",
     logo: "📊",
     bullets: [
-      "Boosted chatbot precision to 88% and cut latency 10% on 35K support tickets using LangChain + FAISS"
+      "Increased chatbot precision to 88%, cut latency by 10%",
+      "Delivered AI adoption insights via Power BI"
+    
     ]
   },
   {
@@ -23,7 +25,9 @@ const experiences = [
     period: "Jul 2022 – Jul 2023",
     logo: "🚗",
     bullets: [
-      "Saved ~$20K per release by cutting validation time 60% while sustaining 99.7% SLA on 10M+ daily events"
+      "Saved ~$80K/yr by cutting QA time by 60%",
+      "Sustained 99.7% SLA on 10M+ events/day"
+
     ]
   },
   {
@@ -32,8 +36,9 @@ const experiences = [
     period: "Mar 2021 – Jun 2022",
     logo: "⚡",
     bullets: [
-      "Improved CX KPIs for 5 vehicle lines and cut diagramming effort 85% (~2 FTEs) via SysML automation"
-    ]
+      "Reduced QA effort by 85% cutting steps from 25 to 6",
+      "Improved CX for 5 vehicle lines via 50K+ reviews"
+]
   },
   {
     role: "Data Science Intern",
@@ -41,8 +46,9 @@ const experiences = [
     period: "Jan 2020 – Jul 2020",
     logo: "💡",
     bullets: [
-      "Delivered 87% accurate COVID-19 forecasts adopted by local authorities for planning"
-    ]
+      "Delivered COVID-19 forecasts at 87% accuracy",
+      "Built stress detection model (82% F1) from wearables"
+]
   }
 ];
 

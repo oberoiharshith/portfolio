@@ -2,18 +2,23 @@
 const metrics = [
   {
     value: "60%",
-    label: "Faster Validation",
-    description: "Mercedes-Benz"
+    label: "QA Time Saved",
+    description: "Validation cut at Mercedes-Benz (~$80K/yr)"
   },
   {
-    value: "10M",
-    label: "Events/Day",
-    description: "99.7% SLA"
+    value: "10M+",
+    label: "Events / Day",
+    description: "Real-time pipeline uptime (99.7% SLA)"
+  },
+  {
+    value: "95%",
+    label: "Model Accuracy",
+    description: "EV Battery SoH Prediction"
   },
   {
     value: "88%",
     label: "Chatbot Precision",
-    description: "Cogent"
+    description: "Cogent Infotech (35K tickets)"
   }
 ];
 
