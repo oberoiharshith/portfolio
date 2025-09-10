@@ -2,7 +2,7 @@ const experiences = [
   {
     role: "Data Science Associate",
     company: "Rutgers University",
-    period: "Sep 2024 – May 2025",
+    period: "May 2025 – May 2025",
     logo: "🎓",
     bullets: [
       "Improved transplant risk stratification by 15%",
