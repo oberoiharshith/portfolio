@@ -1,6 +1,6 @@
 const experiences = [
   {
-    role: "Data Science Associate",
+    role: "Research Assistant - Data Science",
     company: "Rutgers University",
     period: "May 2025 – May 2025",
     logo: "🎓",
