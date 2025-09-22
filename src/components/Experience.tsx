@@ -2,7 +2,7 @@ const experiences = [
   {
     role: "Research Assistant - Data Science",
     company: "Rutgers University",
-    period: "May 2025 – May 2025",
+    period: "Jan 2025 – May 2025",
     logo: "🎓",
     bullets: [
       "Improved health risk prediction 15% (Cox); flagged high-risk cohorts (Bayesian).",
@@ -33,7 +33,7 @@ const experiences = [
     ]
   },
   {
-    role: "Analyst – Data Science & Automation",
+    role: "Analyst – Data Analytics & Automation",
     company: "Capgemini(Mercedes-Benz)",
     period: "Mar 2021 – Jun 2022",
     logo: "⚡",
