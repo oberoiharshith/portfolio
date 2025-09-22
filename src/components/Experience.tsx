@@ -5,8 +5,9 @@ const experiences = [
     period: "May 2025 – May 2025",
     logo: "🎓",
     bullets: [
-      "Improved transplant risk stratification by 15%",
-      "Boosted student outcomes by 30% (50+ mentored)"]
+      "Improved health risk prediction 15% (Cox); flagged high-risk cohorts (Bayesian).",
+      "Mentored 50+; deliverable quality +18%."
+    ]
   },
   {
     role: "Data Science Intern",
