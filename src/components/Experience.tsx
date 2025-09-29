@@ -29,7 +29,6 @@ const experiences = [
     period: "Jul 2022 – Jul 2023",
     logo: "🚗",
     bullets: [
-      "Cut QA validation time 60% (~$80K/yr) • Scaled 10M+ events/day @ 99.7% uptime • Forecasted EV battery health (R² 0.88, RMSE ±5%)",
       "Saved ~$80K by cutting QA time by 60%",
       "Sustained 99.7% uptime on 10M+ telemetry events/day (PySpark–Airflow pipelines).",
       "Forecasted EV battery State of Health (adj. R² ~0.88)."
