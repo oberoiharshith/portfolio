@@ -5,41 +5,46 @@ const experiences = [
     period: "Jan 2025 – May 2025",
     logo: "🎓",
     bullets: [
-      "Improved health risk prediction 15% (Cox); flagged high-risk cohorts (Bayesian).",
-      "Mentored 50+; deliverable quality +18%."
+      "Improved transplant risk stratification by 15% (Cox regression).",
+      "Flagged high-risk cohorts with Bayesian inference.",
+      "Mentored 50+ students; boosted project outcomes by 18%."
     ]
   },
   {
-    role: "Data Science Intern",
-    company: "Cogent Infotech",
+    role: "Data Scientist",
+    company: "J.P. Morgan Chase (via Cogent Infotech)",
     period: "Jan 2024 – May 2024",
     logo: "📊",
     bullets: [
-      "Increased chatbot precision to 88%, cut latency by 10%",
-      "Delivered AI adoption insights via Power BI"
+      "Cut reporting turnaround by 40% (500K+ records/mo) with ETL pipelines + KPI dashboards.",
+      "Improved credit risk prioritization by 15% (logistic regression + gradient boosting).",
+      "Reduced dashboard refresh failures by 35% with anomaly detection automation."
     
     ]
     
   },
   {
     role: "Senior Analyst – Data Science & Analytics",
-    company: "Capgemini(Mercedes-Benz)",
+    company: "Mercedes-Benz Research & Development (via Capgemini)",
     period: "Jul 2022 – Jul 2023",
     logo: "🚗",
     bullets: [
-      "Saved ~$80K/yr by cutting QA time by 60%",
-      "Sustained 99.7% SLA on 10M+ events/day"
+      "Cut QA validation time 60% (~$80K/yr) • Scaled 10M+ events/day @ 99.7% uptime • Forecasted EV battery health (R² 0.88, RMSE ±5%)",
+      "Saved ~$80K by cutting QA time by 60%",
+      "Sustained 99.7% uptime on 10M+ telemetry events/day (PySpark–Airflow pipelines).",
+      "Forecasted EV battery State of Health (adj. R² ~0.88)."
 
     ]
   },
   {
     role: "Analyst – Data Analytics & Automation",
-    company: "Capgemini(Mercedes-Benz)",
+    company: "Mercedes-Benz Research & Development (via Capgemini)",
     period: "Mar 2021 – Jun 2022",
     logo: "⚡",
     bullets: [
-      "Reduced QA effort by 85% cutting steps from 25 to 6",
-      "Improved CX for 5 vehicle lines via 50K+ reviews"
+      "Cut workflow steps 76% (25 → 6), saving ~$15K with Python–Flask GUI tool.",
+      "Surfaced insights from 50K+ customer reviews with NLP.",
+      "Shaped roadmap priorities via Power BI adoption dashboards."
 ]
   },
   {
@@ -48,8 +53,8 @@ const experiences = [
     period: "Jan 2020 – Jul 2020",
     logo: "💡",
     bullets: [
-      "Delivered COVID-19 forecasts at 87% accuracy",
-      "Built stress detection model (82% F1) from wearables"
+      "Built ECG stress-detection models (82% F1).",
+      "Delivered COVID-19 forecasts at 87% accuracy."
 ]
   }
 ];
