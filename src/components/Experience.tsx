@@ -24,7 +24,7 @@ const experiences = [
     
   },
   {
-    role: "Senior Analyst – Data Science & Analytics",
+    role: "Data Scientist",
     company: "Mercedes-Benz Research & Development (via Capgemini)",
     period: "Jul 2022 – Jul 2023",
     logo: "🚗",
@@ -36,7 +36,7 @@ const experiences = [
     ]
   },
   {
-    role: "Analyst – Data Analytics & Automation",
+    role: "Data Analyst",
     company: "Mercedes-Benz Research & Development (via Capgemini)",
     period: "Mar 2021 – Jun 2022",
     logo: "⚡",
