@@ -36,17 +36,6 @@ const experiences = [
     ]
   },
   {
-    role: "Research Assistant – Data Science",
-    company: "Rutgers University",
-    period: "Jan 2025 – May 2025",
-    logo: "🎓",
-    bullets: [
-      "Improved transplant risk stratification 15% using Cox regression survival models.",
-      "Identified high-risk cohorts via Bayesian inference and hypothesis testing.",
-      "Mentored 50+ students, improving project outcomes by 18%."
-    ]
-  },
-  {
     role: "Data Science Intern",
     company: "Itronix Solutions",
     period: "Jan 2020 – Jul 2020",
