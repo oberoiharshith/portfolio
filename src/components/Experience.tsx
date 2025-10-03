@@ -1,38 +1,27 @@
+
 const experiences = [
   {
-    role: "Research Assistant - Data Science",
-    company: "Rutgers University",
-    period: "Jan 2025 – May 2025",
-    logo: "🎓",
-    bullets: [
-      "Improved transplant risk stratification by 15% (Cox regression).",
-      "Flagged high-risk cohorts with Bayesian inference.",
-      "Mentored 50+ students; boosted project outcomes by 18%."
-    ]
-  },
-  {
-    role: "Data Scientist",
-    company: "J.P. Morgan Chase (via Cogent Infotech)",
-    period: "Jan 2024 – May 2024",
-    logo: "📊",
-    bullets: [
-      "Cut reporting turnaround by 40% (500K+ records/mo) with ETL pipelines + KPI dashboards.",
-      "Improved credit risk prioritization by 15% (logistic regression + gradient boosting).",
-      "Reduced dashboard refresh failures by 35% with anomaly detection automation."
-    
-    ]
-    
-  },
+  role: "Data Scientist",
+  company: "J.P. Morgan Chase (Contract)",
+  period: "Jan 2024 – Present",
+  logo: "📊",
+  bullets: [
+    "Cut reporting turnaround 40% (500K+ records/mo) with Python/SQL + Power BI.",
+    "Improved credit risk scoring 15% via logistic regression + gradient boosting.",
+    "Reduced dashboard failures 35% with automated anomaly detection scripts.",
+    "Optimized SQL queries & indexing, cutting runtimes 25% for faster analysis.",
+    "Built self-service Power BI dashboards, reducing ad-hoc requests by 30%."
+  ]
+},
   {
     role: "Data Scientist",
     company: "Mercedes-Benz Research & Development (via Capgemini)",
     period: "Jul 2022 – Jul 2023",
     logo: "🚗",
     bullets: [
-      "Saved ~$80K by cutting QA time by 60%",
-      "Sustained 99.7% uptime on 10M+ telemetry events/day (PySpark–Airflow pipelines).",
-      "Forecasted EV battery State of Health (adj. R² ~0.88)."
-
+      "Saved ~$80K yearly by cutting QA time 60% with ML prioritizer.",
+      "Sustained 99.7% uptime on 10M+ events/day (PySpark + Airflow pipelines).",
+      "Forecasted EV battery health (adj. R² 0.88, RMSE ±5%)."
     ]
   },
   {
@@ -41,10 +30,21 @@ const experiences = [
     period: "Mar 2021 – Jun 2022",
     logo: "⚡",
     bullets: [
-      "Cut workflow steps 76% (25 → 6), saving ~$15K with Python–Flask GUI tool.",
-      "Surfaced insights from 50K+ customer reviews with NLP.",
-      "Shaped roadmap priorities via Power BI adoption dashboards."
-]
+      "Reduced workflow steps 76% (25→6), saving ~$15K annually with Python–Flask tool.",
+      "Analyzed 50K+ reviews (NLP) to improve CX KPIs across 5 vehicle lines.",
+      "Created Power BI dashboards tracking adoption, guiding roadmap priorities."
+    ]
+  },
+  {
+    role: "Research Assistant – Data Science",
+    company: "Rutgers University",
+    period: "Jan 2025 – May 2025",
+    logo: "🎓",
+    bullets: [
+      "Improved transplant risk stratification 15% using Cox regression survival models.",
+      "Identified high-risk cohorts via Bayesian inference and hypothesis testing.",
+      "Mentored 50+ students, improving project outcomes by 18%."
+    ]
   },
   {
     role: "Data Science Intern",
@@ -52,11 +52,12 @@ const experiences = [
     period: "Jan 2020 – Jul 2020",
     logo: "💡",
     bullets: [
-      "Built ECG stress-detection models (82% F1).",
-      "Delivered COVID-19 forecasts at 87% accuracy."
-]
+      "Built ECG stress-detection models achieving 82% F1 score.",
+      "Delivered COVID-19 forecasts with 87% accuracy using SVM and regression."
+    ]
   }
 ];
+
 
 const Experience = () => {
   return (
