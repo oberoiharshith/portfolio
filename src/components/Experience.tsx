@@ -21,10 +21,13 @@ const experiences = [
     bullets: [
       "Saved ~$80K yearly by cutting QA time 60% with ML prioritizer.",
       "Sustained 99.7% uptime on 10M+ events/day (PySpark + Airflow pipelines).",
-      "Forecasted EV battery health (adj. R² 0.88, RMSE ±5%)."
+      "Forecasted EV battery health (adj. R² 0.88, RMSE ±5%).",
+      "Reduced workflow steps 76% (25→6), saving ~$15K annually with Python–Flask tool.",
+      "Analyzed 50K+ reviews (NLP) to improve CX KPIs across 5 vehicle lines.",
+      "Created Power BI dashboards tracking adoption, guiding roadmap priorities."
     ]
   },
-  {
+  /*{
     role: "Data Analyst",
     company: "Mercedes-Benz Research & Development (via Capgemini)",
     period: "Mar 2021 – Jun 2022",
@@ -34,7 +37,7 @@ const experiences = [
       "Analyzed 50K+ reviews (NLP) to improve CX KPIs across 5 vehicle lines.",
       "Created Power BI dashboards tracking adoption, guiding roadmap priorities."
     ]
-  },
+ },*/
   {
     role: "Data Science Intern",
     company: "Itronix Solutions",
