@@ -16,7 +16,7 @@ const experiences = [
   {
     role: "Data Scientist",
     company: "Mercedes-Benz Research & Development (Capgemini)",
-    period: "Jul 2022 – Jul 2023",
+    period: "Mar 2021 – Jul 2023",
     logo: "🚗",
     bullets: [
       "Saved ~$80K yearly by cutting QA time 60% with ML prioritizer.",
