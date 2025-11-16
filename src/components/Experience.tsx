@@ -2,7 +2,7 @@
 const experiences = [
   {
   role: "Data Scientist",
-  company: "J.P. Morgan Chase (Contract)",
+  company: "J.P. Morgan Chase (Cogent Infotech)",
   period: "Jan 2024 – Present",
   logo: "📊",
   bullets: [
@@ -15,7 +15,7 @@ const experiences = [
 },
   {
     role: "Data Scientist",
-    company: "Mercedes-Benz Research & Development (via Capgemini)",
+    company: "Mercedes-Benz Research & Development (Capgemini)",
     period: "Jul 2022 – Jul 2023",
     logo: "🚗",
     bullets: [

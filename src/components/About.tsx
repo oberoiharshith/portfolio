@@ -13,7 +13,7 @@ const About = () => {
               {/* Main Content */}
               <div className="lg:col-span-2 space-y-6">
                 <p className="text-lg text-gray-700 leading-relaxed">
-                  I'm a Rutgers-trained data scientist who <strong>cut Mercedes-Benz test validation time by 60%</strong> and ran a <strong>10M-row/day telemetry pipeline</strong> at 99.7% uptime. Over 3 years in ML and analytics, I've shipped chatbots, trading models, and real-time dashboards that turn raw data into decisions and dollars saved.
+                  I'm a Rutgers trained data scientist with 3 years of experience in predictive modeling, analytics, and large scale data workflows. I improved credit risk lift by <strong>15 percent</strong> at J. P. Morgan, cut Mercedes Benz QA validation time by <strong>60 percent</strong>, and kept a <strong>10M row per day</strong> telemetry pipeline running at <strong>99.7 percent uptime</strong>. I’ve built ETL pipelines, ML models, and Power BI systems that speed up decisions, reduce manual effort, and deliver measurable savings across finance and engineering.
                 </p>
 
                 <p className="text-lg text-gray-700 leading-relaxed">
@@ -58,3 +58,6 @@ const About = () => {
 };
 
 export default About;
+
+
+//I'm a Rutgers-trained data scientist who <strong>cut Mercedes-Benz test validation time by 60%</strong> and ran a <strong>10M-row/day telemetry pipeline</strong> at 99.7% uptime. Over 3 years in ML and analytics, I've shipped chatbots, trading models, and real-time dashboards that turn raw data into decisions and dollars saved.
