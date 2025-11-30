@@ -38,6 +38,16 @@ const experiences = [
       "Created Power BI dashboards tracking adoption, guiding roadmap priorities."
     ]
  },*/
+ {
+    role: "Data Science Intern",
+    company: "Cogent Infotech",
+    period: "Jul 2020 – Feb 2021",
+    logo: "💡",
+    bullets: [
+      "Cleaned and validated 1M+ monthly SQL records, cutting data correction cycles by 25%.",
+      "Built Python churn and risk models to support senior data scientists’ production decisions."
+    ]
+  },
   {
     role: "Data Science Intern",
     company: "Itronix Solutions",
